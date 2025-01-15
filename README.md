@@ -16,6 +16,10 @@ Este script está pensado para ser usado en servidores o entornos de automatizac
   - wget: para descargar el archivo de ChromeDriver.
   - unzip: para descomprimir el archivo descargado.
 
+## Advertencia de seguridad
+
+Si bien puedes descargar el script directamente desde GitHub, es altamente recomendable que, por razones de seguridad, crees tu propio archivo .sh localmente basándote en el ejemplo proporcionado en este repositorio. Descargar scripts de Internet puede presentar riesgos de seguridad, ya que no puedes garantizar la integridad del archivo que estás descargando si no proviene de una fuente de confianza o si no lo revisas antes de ejecutarlo. Asegúrate siempre de revisar el contenido del script antes de ejecutarlo en tu sistema.
+
 ## Instalación
 
 1. Clona el repositorio o descarga el script:
@@ -28,6 +32,13 @@ cd linux-chromedriver-updater
 2. Da permisos de ejecución al script:
 
 ```bash
+chmod +x script.sh
+```
+
+Si prefieres usar el script directamente desde GitHub, puedes usar el siguiente enlace de raw:
+
+```bash
+curl -o script.sh https://raw.githubusercontent.com/Ismola/linux-chromedriver-updater/refs/heads/main/script.sh
 chmod +x script.sh
 ```
 
