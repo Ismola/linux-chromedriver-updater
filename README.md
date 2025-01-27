@@ -8,6 +8,9 @@ El script descarga automáticamente la última versión estable de ChromeDriver 
 
 Este script está pensado para ser usado en servidores o entornos de automatización, y puede ser ejecutado periódicamente (por ejemplo, usando un cron job) para mantener siempre actualizado ChromeDriver.
 
+> [!NOTE]
+> Puede que necesites permisos para ejecutar el script
+
 ## Requisitos
 
 - Sistema operativo: Linux
